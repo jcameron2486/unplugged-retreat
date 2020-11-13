@@ -94,6 +94,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 h1 {
@@ -126,6 +127,7 @@ header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 header .header-divider {
@@ -136,6 +138,7 @@ header nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 header nav ul {
@@ -158,13 +161,13 @@ footer .contact {
 
 }
 
-footer .social {
+footer .social-icons {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-footer .social-icons {
+footer .social {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -182,6 +185,7 @@ footer .social-icons {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 /* Newsletter and Itenerary */
@@ -190,6 +194,7 @@ aside {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .form-description {
@@ -210,12 +215,14 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .features-items {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .fontawesome-icon{
@@ -232,6 +239,7 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 /* ---------------- About Page --------------------- */
@@ -240,6 +248,7 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .mission-content {
@@ -250,6 +259,7 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 figure {
@@ -262,12 +272,14 @@ figure {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .faq .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 /* ---------------- Mobile Styles ------------------- */
