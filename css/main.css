@@ -324,10 +324,6 @@ figure {
   }
 
   /* Features */
-  /*.features {
-    height: 860px;
-    background-image: url(../img/features_t.png);
-  }*/
   .features article {
     display: flex;
     justify-content: center;
@@ -403,26 +399,38 @@ figure {
   
 }
 
-/* ---------------- Desktop Styles ------------------- */
+/* ==========================================================================
+   Desktop Styles
+   These override mobile and tablet styles. Modify as content requires.
+   ========================================================================== */
 
 @media only screen and (min-width: 1200px) {
+  /* General Styles */
+  .content-wrapper {
+    max-width: 960px;
+  }
+  
   /* Main area */
-
-  .hero-area {
-
+  header nav {
+    width: 13%;
   }
 
+  /* Aside */
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {
+    width: 26%;
+    margin: 0 80px;
+  }
+ 
 
-
-  aside {
-
+  /* Features */
+  .features h3 {
+  max-width: 800px;
+  }
+  .features article {
+    flex-basis: 30%;
   }
 
-  /* Footer */
-
-  footer {
-
-  }
 }
 
 /* ==========================================================================
